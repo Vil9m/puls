@@ -12,6 +12,21 @@
             padding: 0 20px 0 20px;
         }
     }
+    .title {
+        &_left {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .consultation {
+        &__descr {
+            margin-top: 50px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 767px) {
@@ -74,6 +89,15 @@
             font-size: 13px;
         }
     }
+    .title {
+        &_left {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+    }
     .button {
         width: 135px;
         height: 25px;
@@ -83,9 +107,22 @@
             height: 40px;
             font-size: 15px;
         }
+        &_sumbit {
+            width: 100%;
+            height: 55px;
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 16px;
+        }
     } 
 }
 @media (max-width: 575px) {
+    .consultation {
+        &__descr {
+            margin-top: 40px;
+            font-size: 18px;
+        }
+    }
     .header {
         padding: 0 5px 0 5px;
         &__logo {
@@ -110,6 +147,13 @@
             width: 220px;
             height: 30px;
             font-size: 14px;
+        }
+        &_sumbit {
+            width: 100%;
+            height: 55px;
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 16px;
         }
     } 
     .promo {
@@ -148,6 +192,9 @@
     }
     .title {
         font-size: 25px;
+        &_left {
+            font-size: 18px;
+        }
     }
     .advantages {
         padding: 50px 0 50px 0;
@@ -195,6 +242,13 @@
             width: 220px;
             height: 30px;
             font-size: 14px;
+        }
+        &_sumbit {
+            width: 100%;
+            height: 55px;
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 16px;
         }
     } 
     .promo {
