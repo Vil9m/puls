@@ -27,6 +27,29 @@
     .feed-form {
         margin: 0 auto;
     }
+    .carousel {
+        &__inner {
+            img {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-evenly;
+        }
+        &-item {
+            width: 350px;
+            &__content {
+                transform: translateX(-106%);
+                &_active {
+                    transform: translateX(0%);
+                    margin-right: 20px;
+                } 
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -74,6 +97,19 @@
             }
         }
     }
+    .carousel {
+        &__inner {
+            width: 550px;
+            img {
+                width: 65%;
+            }
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 170px;
+        }
+    }
     .advantages {
         &__wrapper {
             padding: 0 10px 0 10px;
@@ -113,6 +149,11 @@
             border-radius: 5px;
             color: #ffffff;
             font-size: 16px;
+        }
+        &_mini {
+            width: 131px;
+            height: 40px;
+            font-size: 14px;
         }
     } 
 }
@@ -154,6 +195,11 @@
             border-radius: 5px;
             color: #ffffff;
             font-size: 16px;
+        }
+        &_mini {
+            width: 131px;
+            height: 40px;
+            font-size: 14px;
         }
     } 
     .promo {
@@ -216,6 +262,21 @@
             font-size: 15px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 365px;
+            img {
+                width: 50%;
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 40px;
+        &__tab {
+            width: 105px;
+            font-size: 11px;
+        }
+    }
 }
 @media (max-width: 374px) {
     .header {
@@ -249,6 +310,11 @@
             border-radius: 5px;
             color: #ffffff;
             font-size: 16px;
+        }
+        &_mini {
+            width: 131px;
+            height: 40px;
+            font-size: 14px;
         }
     } 
     .promo {
@@ -288,7 +354,10 @@
         }
     }
     .title {
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .consultation {
+        padding: 60px 0 70px 0;
     }
     .advantages {
         padding: 50px 0 50px 0;
@@ -308,6 +377,27 @@
         &__descr {
             margin-top: 10px;
             font-size: 15px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 320px;
+            img {
+                width: 80%;
+            }
+        }
+    }
+    .catalog {
+        &-item {
+            width: 300px;
+        }
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__tab {
+            margin: 0 2px;
+            width: 90px;
+            font-size: 10px;
         }
     }
 }
